@@ -1,4 +1,4 @@
-# Nest Authentication Extractor
+# Google Nest Authentication Extractor
 
 Automates the extraction of `issue_token` and `cookies` credentials needed for the [ha-nest-protect](https://github.com/iMicknl/ha-nest-protect) Home Assistant integration.
 
