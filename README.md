@@ -21,6 +21,16 @@ Run the script and follow the on-screen prompts:
 npm run nest-auth
 ```
 
+For verbose output with debugging information:
+
+```bash
+npm run nest-auth:verbose
+# or
+node nest-auth-extractor.js --verbose
+# or
+node nest-auth-extractor.js -v
+```
+
 The script will:
 1. Open a Chrome browser window to home.nest.com
 2. Prompt you to sign in with your Google account
@@ -28,6 +38,14 @@ The script will:
 4. Save them to `nest-credentials.json`
 
 **Important:** Do not log out of home.nest.com after extraction - this will invalidate the credentials.
+
+### Verbose Mode
+
+By default, the script shows minimal output for a cleaner experience. Use the `--verbose` or `-v` flag to see:
+- Network monitoring status
+- Token capture details
+- Cookie collection information
+- Full credential previews
 
 ## Using the Credentials
 

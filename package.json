@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Utility scripts for homelab automation",
   "scripts": {
-    "nest-auth": "node nest-auth-extractor.js"
+    "nest-auth": "node nest-auth-extractor.js",
+    "nest-auth:verbose": "node nest-auth-extractor.js --verbose"
   },
   "dependencies": {
     "playwright": "^1.40.0"
