@@ -1,0 +1,3 @@
+node_modules/
+nest-credentials.json
+*.log

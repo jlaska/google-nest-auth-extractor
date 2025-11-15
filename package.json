@@ -1,0 +1,15 @@
+{
+  "name": "homelab-scripts",
+  "version": "1.0.0",
+  "description": "Utility scripts for homelab automation",
+  "scripts": {
+    "nest-auth": "node nest-auth-extractor.js"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0"
+  },
+  "devDependencies": {},
+  "keywords": ["homelab", "automation", "nest"],
+  "author": "",
+  "license": "MIT"
+}
